@@ -27,10 +27,17 @@ body{
 }
 .message-box{
     background-color: rgb(160, 226, 220);
+    margin-left: 50px;
+
 }
 
 .navbar{
     margin-bottom: 50px;
+}
+.sticky{
+    background-color: rgb(63, 60, 60);
+    text-align: center;
+    color: white;
 }
 </style>
 
@@ -86,13 +93,13 @@ body{
                 <label for="exampleFormControlInput1">Email address</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
               </div>
+              <h5 class="card-title">Leave me a message</h5>
               <textarea rows = "5-sm" cols = "60-sm" name = "description">
                 Enter message here...
              </textarea><br>
              <input type = "submit" value = "submit" />
-
-              </form>
-      <h5 class="card-title">Leave me a message</h5>
+</form>
+      
      <a href="./index.html" class="btn btn-primary"> Back Home</a>
     </div>
     <div class="card-footer text-muted mx-5">
@@ -110,13 +117,13 @@ body{
     
     
     
-    <footer>
-        <footer class="container-fluid">
-            <nav class="navbar fixed-bottom">
-             this is the footer and it will not move 
-            </nav>
-          </footer>
-    </footer>
+ 
+   <footer class="container-fluid">
+    <nav class="fixed-bottom card-body sticky">
+    <h5>@copyright</h5>
+    </nav>
+  </footer>
+    
     
     
     
