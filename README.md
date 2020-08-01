@@ -6,4 +6,3 @@ Responsive portfolio is a website developed using bootstrap layouts and bootstra
 
 [Responsive portfolio](https://sm-801.github.io/responsive-portfolio/). Is hosted on github pages. 
 
-./assets/images/Screenshot.png)
